@@ -1,9 +1,9 @@
 let firstArg = process.argv[2];
 
-let numberArg = (Number(firstArg));
+let numberArg = (parseInt(firstArg));
 
 if (isNaN(numberArg)){
     console.log("Not a number");
 } else {
-    console.log(Number(firstArg));
+    console.log(`My number: ${numberArg}`);
 }
