@@ -15,5 +15,5 @@ if (Number.isInteger(roundNum)) {
             console.log("X".repeat(roundNum));
         }
 } else {
-    console.log("Missing number of occurrences");
+    console.log("Missing size");
 }
